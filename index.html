@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration-Form</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+            <p class="instruc">Please fill out this form with the required information</p>
+        
+        <form action=""></form>
+            
+            <fieldset>
+                <label for="">Enter Your First Name: <br>
+                    <input type="text" class="first" name="first-name" id="" value="" required>
+                </label><br>
+                <label for="">Enter Your Last Name: <br>
+                    <input type="text" class="first" name="last-name" id="" value="" required>
+                </label><br>
+                <label for="">Enter Your Email: <br>
+                    <input type="email" class="first" name="email" id="" value="" required>
+                </label><br>
+                <label for="">Create a Password: <br>
+                    <input type="password" class="first" name="password1" id="" value="" required>
+                </label><br>
+                <label for="">Confirm Your Password: <br>
+                    <input type="password" class="first" name="password2" id="" value="" required>
+                </label>
+            </fieldset>
+
+
+            <hr>
+
+
+            <fieldset>
+                
+                <p>Please Choose Your Account:</p>
+                <label for="">
+                    <input type="radio" name="account" id="">
+                       Personal Account
+                </label><br>
+                <label for="">
+                    <input type="radio" name="account" id="">
+                       Business Account 
+                </label><br>
+                <label for="" >
+                    <input type="checkbox" name="account" id="" required>
+                       I accept the <a href="https://eruditemillennium.com">Terms and Conditions</a>
+                </label>
+            </fieldset>
+
+
+            <hr>
+
+
+            <fieldset>
+                <label for="">Upload a profile picture: <br>
+                    <input class="second" type="file" name="profile-pic" id="">
+                </label><br>
+                <label for="">Enter your age (years): 
+                    <input class="second" type="number" min="18" max="65" name="first-name" id="" value="" required>
+                </label><br>
+                <label for="">How did you hear about us? <br>
+                    <select class="second" name="refrence" id="">
+                        <option value="">Choose option</option>
+                        <option value="">Site</option>
+                        <option value="">Social Media</option>
+                        <option value="">Family and friends</option>
+                        <option value="">Billboards</option>
+                        <option value="">Youtube</option>
+                        <option value="">Others </option>
+                    </select><br>
+                    <label for=""> Your bio:  <br>
+                        <textarea class="bio" name="" id="" cols="30" rows="5" placeholder=" Start with Bismillah..." required></textarea>
+                    </label><br>
+                </label>
+            </fieldset>
+            <label for="">
+                <input class="third" type="submit" value="Submits">
+            </label>
+        </form>
+    </div>    
+</body>
+</html>

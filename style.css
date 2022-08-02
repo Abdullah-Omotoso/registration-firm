@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: brown;
+    font-family: sans-serif;
+
+}
+
+
+.main {
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.instruc {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+fieldset {
+    border: 0ch;
+}
+
+hr {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: white;
+    height: 3px;
+    border: 0;
+}
+
+.first {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    border: 0;
+}
+
+.second {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    border: 0;
+}
+
+a {
+    color: blue;
+}
+
+.bio {
+    margin: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    border: 0;
+}
+
+.third {
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 20%;
+    width: 60%;
+    height: 30px;
+    padding: 3px;
+    background-color: black;
+    height: 30px;
+    color: white;
+    background-color: rgb(78, 76, 76);
+    color: white;
+    border-color: white; 
+}
+
+.third:hover{
+    cursor: pointer;
+}
+
+input {
+    margin: 10px;
+    margin-left: 0;
+    background-color: gray;
+    color: white;
+    border-color: white; 
+ }
